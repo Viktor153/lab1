@@ -1,0 +1,21 @@
+mkdir lab1
+notepad l1.txt
+git add l1.txt
+git status
+git commit -m "Initial commit"
+git commit -a -m "modify l1.txt"
+git remote add origin https://github.com/Viktor153/lab1.git
+git remote -v
+git push origin master
+git reset --hard
+git checkout -b logging
+git log
+git notepad log.txt
+git status
+git add .
+git push origin logging
+git commit -m "new commit"
+git checkout master
+git merge logging
+git push -u origin master
+git checkout -b allcommands                                                                                                                        
